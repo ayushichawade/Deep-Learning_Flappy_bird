@@ -1,0 +1,23 @@
+Deep Q-Learning (DQN):
+
+Deep Q-Learning is a reinforcement learning method that blends Q-learning with deep neural networks. Key features include:
+
+Q-Learning:
+
+Q-Learning finds optimal actions in a decision process by learning a Q-function (expected cumulative reward for each action in a given state).
+Deep Neural Networks:
+
+DQN employs deep neural networks to approximate the Q-function, enabling it to handle high-dimensional state spaces like images.
+Experience Replay:
+
+Experience Replay stores and randomly samples experiences, breaking temporal correlations and enhancing learning stability.
+Target Network:
+
+DQN uses two networks (online and target) to stabilize learning, updating the target network periodically.
+Temporal Difference (TD) Error:
+
+Training minimizes the TD error, the gap between predicted and target Q-values.
+Exploration vs. Exploitation:
+
+Epsilon-greedy strategy balances exploration and exploitation during learning.
+DQN has proven effective in solving complex tasks like playing video games, though challenges like instability and hyperparameter tuning exist. Advanced variants like Double DQN address some of these issues.
